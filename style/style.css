@@ -44,10 +44,11 @@ nav {
     list-style: none;
 }
 
-.menu-item{
+.menu-item {
     padding-left: 32px;
 }
-.social-item{
+
+.social-item {
     margin-left: 32px;
 }
 
@@ -75,4 +76,45 @@ nav {
 
 .fa-brands {
     font-size: 1.5rem;
+}
+
+/* Banner style */
+.play-tittle {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tittle {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner-containt-list {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 0;
+}
+
+.btn-one,
+.btn-two {
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: 0;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-two {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
