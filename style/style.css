@@ -20,7 +20,7 @@
     margin: 10px 0;
 }
 
-.text-gradient {
+.text-gradient{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -263,8 +263,11 @@ nav {
 
 
 /* Secund Features Section  */
+.second-features-section {
+    margin: 150px 200px 0;
+}
 
-.second-features-container{
+.second-features-container {
     flex-direction: row-reverse;
 }
 
@@ -284,6 +287,76 @@ nav {
     right: -75px;
     bottom: -30px;
 }
+
+/* Careen style */
+.career-section {
+    margin-top: 100px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 0 200px;
+}
+
+.career-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url('../images/Vector\ 2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    ba */
+}
+
+.career-tittle {
+    color: #FFF;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.career-description {
+    color: #FFF;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 24px 0px;
+    text-align: justify;
+}
+
+.career-list-box {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.career-list-box>ul {
+    list-style: none;
+}
+
+.career-list-box>ul li {
+    font-size: 0.9rem;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+
+.right-list {
+    text-align: right;
+}
+.btn-white{
+    background: #FFF;
+    color: #FF42A5;
+    margin-top: 30px;
+}
+
+.career-img {
+    width: 500px;
+    fill: rgba(255, 255, 255, 0.10);
+}
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
 
