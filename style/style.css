@@ -261,7 +261,8 @@ nav {
 .features-img {
     width: 330px;
 }
-.features-box{
+
+.features-box {
     padding: 30px;
 }
 
@@ -315,10 +316,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-image: url('../images/Vector\ 2.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    ba */
 }
 
 .career-tittle {
@@ -493,6 +490,7 @@ footer>.footer-icon-container>.footer-icon i {
 
 
 
+
 @media screen and (max-width:576px) {
 
     nav,
@@ -587,4 +585,98 @@ footer>.footer-icon-container>.footer-icon i {
     }
 }
 
-@media screen and (min-width:576px) and (max-width:992px) {}
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    nav,
+    .menu,
+    .gamer-container,
+    .online-games-section,
+    .features-container,
+    .career-container {
+        flex-direction: column;
+    }
+
+    .games-container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .item-shortcut,
+    .footer-icon-container,
+    .item-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .terms-and-conditions {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+    .menu-item {
+        padding-top: 15px;
+    }
+
+    .social-item,
+    .online-games-section {
+        margin: 15px 0px;
+    }
+
+    .games-container,
+    .features-section,
+    .games-item {
+        margin: 20px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 50px;
+
+    }
+
+
+    .banner-main-img,
+    .gamer-img {
+        width: 400px;
+    }
+
+    .games-img {
+        width: 300px;
+    }
+
+    .gamer-container,
+    .career-section,
+    footer {
+        padding: 20px 20px;
+    }
+
+    .features-img,
+    .second-features-img {
+        width: 300px;
+    }
+
+    .features-box-1 {
+        margin: 0px 0px 0px 80px;
+    }
+
+    .features-box-2 {
+        margin: 0px 80px 0px 0px;
+    }
+
+    .footer-icon-container,
+    .terms-and-conditions {
+        margin: 30px 0px 0px 80px;
+    }
+
+    .containt-tittle {
+        font-size: 2rem;
+        text-align: justify;
+        width: 100%;
+    }
+
+
+}
