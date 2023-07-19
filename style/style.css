@@ -387,19 +387,21 @@ nav {
     align-items: center;
     padding: 10px;
     margin: 8px;
-
     border: 2px solid white;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .item-box:hover {
     border: 2px solid tomato;
     border-radius: 50px;
     color: #FF42A5;
+    transition: 1s;
 }
 
 .item-box:hover h4 {
     color: #FF42A5;
+    transition: 1s;
 }
 
 .item-img {
