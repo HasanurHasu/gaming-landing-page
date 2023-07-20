@@ -370,10 +370,13 @@ nav {
     margin: 120px 200px;
 }
 
-.item-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+.item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+
 
 .down-item {
     display: flex;
